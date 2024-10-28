@@ -1,0 +1,20 @@
+using Console;
+
+Console.PrintLine("Hello World!");
+
+public class ParentClass{
+    public int eg1;
+    public int eg2;
+    public void HypeFunc(){
+        // Insert logic here
+    }
+}
+
+public class ChildClass : ParentClass {
+    @ditch eg1;
+    @ditch HypeFunc();
+
+}
+
+ChildClass childClass = new ChildClass;
+Console.PrintLine(childClass.eg2);
